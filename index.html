@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Google.com</title>
+  <style>
+
+body{
+    margin:0;
+    font-family:arial;
+}
+
+
+#navbar-wrapper a{
+    color:black;
+    font-size:small;
+    text-decoration: none;
+}
+#navbar-wrapper a:hover{
+    text-decoration: underline;
+}
+.bottom-footer a{
+    color:#666;
+    font-size:.9em;
+    text-decoration: none;
+}
+
+.bottom-footer a:hover{
+    text-decoration: underline;
+}
+#navbar-wrapper{
+    background-color;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+  
+}
+
+#navdiv-right{
+background-color;
+margin-left:auto;
+padding:0px 20px 0px 0px;
+
+
+
+}
+
+#navdiv-left{
+background-color;
+margin-right:auto;
+padding:0px 60px 0px 0px;
+
+}
+
+.navbar{
+display:flex;
+}
+
+#navbar-wrapper li{
+    list-style-type: none;
+    display:inline;
+    padding:0px 15px 0px 0px;
+}
+
+#button{
+    background-color:#4285f4;
+    font-weight:bold;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    padding:7px 12px;
+    font-size:.8em;
+    text-decoration: none;
+}
+
+#midsection{
+    text-align: center;
+    background-color;
+    width:100%;
+}
+
+#image{
+    margin:90px 0px 0px 0px;
+}
+
+#search-bar{
+    width:425px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    height:40px;
+    margin:25px auto;
+    padding:0px 40px;
+    font-size: 1em;
+}
+
+#search-bar:hover{
+    box-shadow: 0px 0px 2px 2px #eee;
+}
+
+
+.main-button{
+    padding: 10px 10px;
+    background-color:#eee;
+    border:none;
+    color:#666;
+    font-size:.8em;
+}
+
+.main-button:hover{
+    border:1px solid #ccc;
+    color:black;
+    padding:9px 9px;
+}
+
+footer{
+    width:100%;
+    background-color: #eee;
+    position:absolute;
+    bottom:0px;
+    display:flex;
+    border:1px solid #ddd;
+    height:37px;
+    padding:0px 0px 6px 0px;
+
+    
+}
+.bottom-footer{
+    display:flex;
+    flex-direction:column;
+    
+}
+footer li{
+    list-style-type:none;
+    display:inline;
+    padding:0px 10px;
+    
+}
+
+#footer-left{
+background-color;
+margin-right:auto;
+padding:0px 50px 0px 0px;
+}
+
+#footer-right{
+background-color;
+margin-left:auto;
+padding:0px 30px 0px 0px;
+
+
+}
+  </style>
+</head>
+
+<body>
+  <nav id="navbar-wrapper">
+
+     <div id="navdiv-left" class="navbar"> 
+      <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+      </ul>
+    </div>
+
+    <div id="navdiv-right" class="navbar"> 
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">#</a></li>
+            <li><a id="button" style=color:white; href="#">Sign In</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <div id="midsection">
+      <img id="image" src="Google Logo.png">
+
+        <div>
+            <form>
+                <input id="search-bar" type="text">
+                <br>
+                <input class="main-button" type="submit" value="Google Search">
+                <input class="main-button" type="submit" value="I'm Feeling Lucky">
+            </form>
+        </div>
+  </div>
+
+  <footer>
+    <div id="footer-left" class="bottom-footer"> 
+        <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works</a></li>
+        </ul>
+      </div>
+
+      <div id="footer-right" class="bottom-footer"> 
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+
+
+  </footer>
+
+
+
+</body>
+</html>
